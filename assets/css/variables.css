@@ -1,0 +1,11 @@
+:root {
+  --form-bg-color-primary: #0000007b;
+  --form-bg-color-sacondary: #ffffff;
+  --form-color-main: #ffd700;
+  --form-color-primary: #000000;
+  --form-color-sacondary: #ffffff;
+  --form-color-acent: #ff0000;
+  --form-border-main: 2px solid #ffd700;
+  --form-border-sacondary: 2px solid #ffffff;
+  --form-border-transparent: 2px solid transparent;
+}

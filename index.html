@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/nice-select.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="assets/img/myfav.png">
+  <title>Form</title>
+</head>
+
+<body>
+
+  <main class="main">
+
+    <h1 class="mainh1">Form example</h1>
+
+    <div class=" container">
+      <form action="#" class="form">
+        <fieldset class="wraper test-remove-wraper">
+          <legend class="primary-legend test-remove">Registration</legend>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="block">
+                <input class="item capit" type="text" name="firstname" id="firstname" placeholder="John/Jane">
+                <label class="text" for="firstname">First Name</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="block">
+                <input class="item capit" type="text" name="lastname" id="lastname" placeholder="Dou">
+                <label class="text" for="lastname">Last Name</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="block">
+                <input class="item" type="text" name="login" id="login" placeholder="login">
+                <label class="text" for="login">Login</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="block">
+                <input class="item" type="password" name="password" id="password" placeholder="password">
+                <label class="text" for="password">Password</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="block">
+                <input class="item" type="email" name="email" id="email" placeholder="Email@example.com">
+                <label class="text" for="email">Email</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="block">
+                <input class="item" type="tel" name="tel" id="tel" placeholder="+38(000)-000-00-00">
+                <label class="text" for="tel">Phone</label>
+              </div>
+            </div>
+            <div class="form-controls">
+              <input type="submit" class="btn btn-primary" value="Registration">
+              <input type="reset" class="btn btn-primary" value="Reset">
+            </div>
+          </div>
+        </fieldset>
+      </form>
+
+      <form action="#" class="form">
+        <fieldset class="wraper">
+          <legend class="primary-legend">About yourself</legend>
+          <div class="row">
+            <div class="col-md-6">
+              <label class="secondary-legend">Your version</label>
+              <div class="block-radio">
+                <div>
+                  <input type="radio" id="male" name="gender" value="male">
+                  <label class="check" for="male">Male</label>
+                </div>
+                <div>
+                  <input type="radio" id="female" name="gender" value="female">
+                  <label class="check" for="female">Female</label>
+                </div>
+                <div>
+                  <input type="radio" id="unknow" name="gender" value="unknow" disabled>
+                  <label class="disabled" for="unknow">Visit to Thailand</label>
+                </div>
+              </div>
+              <label class="secondary-legend">What programming language do you know</label>
+              <div class="block-radio">
+                <div>
+                  <input type="radio" id="java" name="prog-lang" value="java">
+                  <label class="check" for="java">Java</label>
+                </div>
+                <div>
+                  <input type="radio" id="python" name="prog-lang" value="python">
+                  <label class="check" for="python">Python</label>
+                </div>
+                <div>
+                  <input type="radio" id="javascript" name="prog-lang" value="javascript">
+                  <label class="check" for="javascript">JavaScript</label>
+                </div>
+              </div>
+              <label class="secondary-legend">Your favorite color</label>
+              <div class="block-color">
+                <input class="color" type="color" name="color" id="color" value="#ffd700">
+              </div>
+              <label class="secondary-legend">Tell us about yourself</label>
+              <div class="block-textarea">
+                <textarea cols="20" rows="10" placeholder="Send massage"></textarea>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label class="secondary-legend">Your hobby</label>
+              <div class="block-checkbox">
+                <div>
+                  <input type="checkbox" id="book" name="hobby" value="book">
+                  <label class="check" for="book">Books</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="tv" name="hobby" value="tv">
+                  <label class="check" for="tv">TV-show</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="sport" name="hobby" value="sport">
+                  <label class="check" for="sport">Sport</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="pc" name="hobby" value="pc">
+                  <label class="check" for="pc">Computers</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="dance" name="hobby" value="dance">
+                  <label class="check" for="dance">Dancing</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="swim" name="hobby" value="swim">
+                  <label class="check" for="swim">Swimming</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="yoga" name="hobby" value="yoga">
+                  <label class="check" for="yoga">Yoga</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="origami" name="hobby" value="origami">
+                  <label class="check" for="origami">Origami</label>
+                </div>
+              </div>
+              <label class="secondary-legend">What languages do you speak</label>
+              <div class="block-checkbox">
+                <div>
+                  <input type="checkbox" id="eng" name="language" value="eng">
+                  <label class="check" for="eng">English</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="ukr" name="language" value="ukr">
+                  <label class="check" for="ukr">Ukraine</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="pol" name="language" value="pol">
+                  <label class="check" for="pol">Poland</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="ger" name="language" value="ger">
+                  <label class="check" for="ger">Germany</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="jap" name="language" value="jap">
+                  <label class="check" for="jap">Japanese</label>
+                </div>
+              </div>
+              <label class="secondary-legend">Do you have a car</label>
+              <div class="block-radio">
+                <div>
+                  <input type="radio" id="yes" name="car" value="yes">
+                  <label class="check" for="yes">Yes</label>
+                </div>
+                <div>
+                  <input type="radio" id="no" name="car" value="no">
+                  <label class="check" for="no">No</label>
+                </div>
+              </div>
+              <label class="secondary-legend" for="brand">Choose the brand of your car.</label>
+              <div class="block-select">
+                <select name="brand" id="brand">
+                  <option value="not">Don`t have</option>
+                  <option value="bmw">BMW</option>
+                  <option value="audi">Audi</option>
+                  <option value="mercedes">Mercedes</option>
+                  <option value="another">Another brand</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="form-controls">
+            <input type="submit" class="btn btn-primary" value="Submit">
+            <input type="reset" class="btn btn-primary" value="Reset">
+          </div>
+        </fieldset>
+      </form>
+
+      <form action="#" class="form">
+        <fieldset class="wraper">
+          <legend class="primary-legend">Random</legend>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="block-random">
+                <input class="item" type="file" name="Random" id="file">
+                <label class="text" for="file">input type="file</label>
+              </div>
+              <div class="block-random">
+                <input class="item" type="date" name="Random" id="date">
+                <label class="text" for="date">input type="date"</label>
+              </div>
+              <div class="block-random">
+                <input class="item" type="datetime-local" name="Random" id="datetime">
+                <label class="text" for="datetime">input type="datetime-local"</label>
+              </div>
+              <div class="block-random">
+                <input class="item" type="url" name="Random" id="url" placeholder="http://example.com">
+                <label class="text" for="url">input type="url"</label>
+              </div>
+              <div class="block-random">
+                <input class="item-img" type="image" src="assets/img/randomimg.png" alt="random" name="Random"
+                  id="image">
+                <label class="text" for="image">input type="image""</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="block-random">
+                <button class="item  btn-secondary" type="button" id="button" name="Random">Button</button>
+                <label class="text" for="button">button type="button"</label>
+              </div>
+              <div class="block-random">
+                <input class="item" type="search" name="Random" id="search" placeholder="search">
+                <label class="text" for="search">input type="search"</label>
+              </div>
+              <div class="block-random">
+                <input class="item" type="month" name="Random" id="month">
+                <label class="text" for="month">input type="month"</label>
+              </div>
+              <div class="block-random">
+                <input class="item" type="week" name="Random" id="week">
+                <label class="text" for="week">input type="week"</label>
+              </div>
+              <div class="block-random">
+                <input class="item" id="range" type="range" min="1" max="100" step="1">
+                <label class="text" for="range">input type="range"</label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+
+  </main>
+
+  <footer>
+    <h3 class="empty"> &copy; Viktor Blaga</h3>
+  </footer>
+
+  <script src="assets/js/jqueryv3.6.4.js"></script>
+  <script src="assets/js/jquery.mask.js"></script>
+  <script src="assets/js/jquery.nice-select.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

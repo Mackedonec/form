@@ -1,0 +1,94 @@
+body {
+  font-family: "Roboto";
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: #090df3;
+  background-image: url(../img/rain.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  font-family: "Roboto";
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: #3fadf18e;
+}
+
+.main .container-xxl,
+.main .container {
+  background-color: var(--bg-color-main);
+  padding: 20px 5px;
+  box-shadow: 0px 0px 10px 15px var(--bg-color-main);
+}
+
+.column {
+  padding: 0 12px;
+  width: 100%;
+}
+
+.empty {
+  text-align: center;
+  padding: 120px;
+}
+
+.mainh1 {
+  max-width: 1240px;
+  font-family: "Roboto";
+  text-align: center;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 7px;
+  padding: 25px;
+  margin: 0 auto 50px;
+  background-color: #ffffff33;
+  box-shadow: 0px 0px 10px 15px #ffffff33;
+  border-radius: 20px;
+}
+
+.mainh2 {
+  font-family: "Roboto";
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.mainp {
+  font-family: "Roboto";
+  font-style: normal;
+  text-align: justify;
+}
+
+.mainli {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.maindiv {
+  padding-bottom: 30px;
+  border-bottom: 2px dashed;
+  margin-bottom: 50px;
+}
+
+.mainb {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  margin: 0;
+  padding-left: 40px;
+}
