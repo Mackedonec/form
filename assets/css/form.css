@@ -34,6 +34,15 @@
   padding-bottom: 20px;
 }
 
+span:focus-visible,
+textarea:focus-visible,
+label:focus-visible,
+input:focus-visible {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
 textarea {
   border: var(--form-border-transparent);
   color: var(--form-color-primary);
@@ -44,7 +53,7 @@ textarea {
 textarea:focus,
 textarea:hover {
   background-color: var(--form-color-primary);
-  border: var(--form-border-sacondary);
+  border: var(--form-border-secondary);
   color: var(--form-color-sacondary);
   transition: 1s;
 }
@@ -107,7 +116,7 @@ textarea:hover::placeholder {
 
 .block-select:hover {
   background-color: var(--form-bg-color-primary);
-  border: var(--form-border-sacondary);
+  border: var(--form-border-secondary);
   transform: translateY(-3px);
   transition: 1s;
   color: var(--form-color-primary);
@@ -120,7 +129,7 @@ textarea:hover::placeholder {
 .block-radio:hover,
 .block:hover {
   background-color: var(--form-bg-color-primary);
-  border: var(--form-border-sacondary);
+  border: var(--form-border-secondary);
   transform: translateY(-3px);
   transition: 1s;
   color: var(--form-color-sacondary);
@@ -234,7 +243,7 @@ textarea:hover::placeholder {
   background-color: var(--form-color-primary);
   transition: 1s;
   color: var(--form-color-sacondary);
-  border: var(--form-border-sacondary);
+  border: var(--form-border-secondary);
 }
 
 .item:focus::placeholder,
@@ -245,15 +254,6 @@ input[type="date"]:hover,
 input[type="datetime-local"]:hover {
   color: var(--form-color-sacondary);
   transition: 1s;
-}
-
-span:focus-visible,
-textarea:focus-visible,
-label:focus-visible,
-input:focus-visible {
-  outline: none;
-  box-shadow: none;
-  border: none;
 }
 
 input[type="week"]:focus::-webkit-calendar-picker-indicator,
@@ -395,7 +395,7 @@ input[type="datetime-local"]:hover::-webkit-calendar-picker-indicator {
 
 .nice-select:focus,
 .nice-select:hover {
-  border: var(--form-border-sacondary);
+  border: var(--form-border-secondary);
   background-color: var(--form-color-primary);
   color: var(--form-color-sacondary);
   transition: 0.5s;
@@ -406,7 +406,7 @@ input[type="datetime-local"]:hover::-webkit-calendar-picker-indicator {
   max-width: 700px;
   background-color: var(--form-bg-color-primary);
   border-radius: 10px;
-  border: var(--form-border-sacondary);
+  border: var(--form-border-secondary);
   padding: 5px 0;
   margin-top: 15px;
   transition: 0.5s;
